@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c5d681b051.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+</head>
+<body class="bg">
+    <h1 class="abt-title">About Us</h1>
+    <p class="abt-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam aperiam ratione laudantium, ipsam tempora labore porro id consequuntur cum ducimus autem voluptatum adipisci magnam et temporibus ex totam qui iusto.</p>
+</body>
+{% endblock content %}

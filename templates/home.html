@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c5d681b051.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+</head>
+
+<body class="bg-img">
+    <section class="header">
+        <nav class="navbar">
+            <div class="hamburger">
+                <div class="ham1"></div>
+                <div class="ham2"></div>
+                <div class="ham3"></div>
+            </div>
+        </nav>
+
+        <div class="home-body-header">
+            <h1 class="primary">
+                The <br> <span id="ramen">Ramen</span> <br>Spot
+            </h1>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
+{% endblock content %}
